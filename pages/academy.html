@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Qine Academy - Structural software engineering education from zero to hero">
+    <title>Qine Academy - Qine Systems</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+     <header class="header" role="banner">
+        <nav class="navbar" role="navigation" aria-label="Main navigation">
+            <div class="nav-brand">
+                <img src="../QineSystem-Logo.jpg" alt="Qine Systems Logo" class="nav-logo-image">
+                <a href="home.html" class="logo">QINE SYSTEMS</a>
+            </div>
+            
+            <button class="nav-toggle" aria-label="Toggle mobile menu">
+                <span class="hamburger"></span>
+                <span class="hamburger"></span>
+                <span class="hamburger"></span>
+            </button>
+            
+            <ul class="nav-menu">
+                <li><a href="home.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About Us</a></li>
+                <li><a href="achievements.html" class="nav-link">Achievements</a></li>
+                <li><a href="academy.html" class="nav-link active">Qine Academy</a></li>
+                <li><a href="roadmap.html" class="nav-link">Future Tracks</a></li>
+                <li><a href="contact.html" class="nav-link btn-nav">Get in Touch</a></li>
+            </ul>
+            
+            <!-- THEME TOGGLE - ABSOLUTE INSIDE HEADER -->
+            <button class="theme-toggle" aria-label="Toggle dark/light mode" title="Toggle theme">
+                <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                </svg>
+                <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="5"></circle>
+                    <line x1="12" y1="1" x2="12" y2="3"></line>
+                    <line x1="12" y1="21" x2="12" y2="23"></line>
+                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                    <line x1="1" y1="12" x2="3" y2="12"></line>
+                    <line x1="21" y1="12" x2="23" y2="12"></line>
+                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                </svg>
+            </button>
+        </nav>
+    </header>
+
+    <!-- SECTION 1: THE ACADEMY VISION & STUDENT ENVIRONMENT -->
+    <section id="academy" class="deep-section academy-section" role="main" style="padding-top: calc(80px + var(--spacing-3xl));">
+        <div class="container">
+            <div class="section-header">
+                <h1 class="section-title">Qine Academy: The Comprehensive Curriculum Vault</h1>
+                <p class="section-subtitle">
+                    Transforming Beginners into Industry-Ready Engineers Through Structured, Zero-to-Hero Learning Pipelines
+                </p>
+            </div>
+            
+            <div class="split-grid-50">
+                <!-- Left Column: Academy Vision & Pedagogy (50%) -->
+                <div class="content-column">
+                    <h2>The Zero-to-Hero Pedagogical Roadmap</h2>
+                    
+                    <p>
+                        Qine Academy strips away abstract computer science jargon to deliver practical, industry-grade 
+                        software engineering education from day one. Our curriculum is designed for absolute beginners 
+                        who have never written a line of code, guiding them systematically through increasingly complex 
+                        technical concepts until they can architect, build, and deploy production-ready applications.
+                    </p>
+                    
+                    <p>
+                        Unlike traditional academic programs that prioritize theoretical foundations over practical skills, 
+                        we employ a **hands-on, project-driven methodology** where every lesson culminates in working code. 
+                        Students don't just learn about databases — they design schemas, write complex queries, and optimize 
+                        for performance. They don't just study algorithms — they implement sorting mechanisms, analyze time 
+                        complexity, and benchmark real-world execution speeds.
+                    </p>
+                    
+                    <div class="highlight-box">
+                        <p>
+                            <strong>Our Core Pedagogy:</strong> Learn by building. Every module is structured around 
+                            incremental project milestones that compound into a comprehensive portfolio. By course 
+                            completion, students have shipped multiple live applications, contributed to open-source 
+                            repositories, and accumulated dozens of hours debugging real production issues.
+                        </p>
+                    </div>
+                    
+                    <h3>The Qine Learning Environment</h3>
+                    
+                    <p>
+                        Based at Bahir Dar University's Poly Campus, Qine Academy leverages a collaborative peer-learning 
+                        model. Weekly in-person code review sessions pair junior students with senior mentors who provide 
+                        personalized feedback on code quality, architectural decisions, and best practices. Our active 
+                        Telegram community supports 24/7 asynchronous learning with rapid responses to technical questions.
+                    </p>
+                    
+                    <ul>
+                        <li>Structured curriculum designed by industry professionals</li>
+                        <li>Hands-on projects deployed to live production environments</li>
+                        <li>Weekly peer programming sessions and technical workshops</li>
+                        <li>One-on-one mentorship from senior software engineers</li>
+                        <li>Comprehensive video tutorials available on YouTube</li>
+                        <li>Active community support via Telegram (500+ members)</li>
+                        <li>Portfolio-based certification upon course completion</li>
+                    </ul>
+                </div>
+                
+                <!-- Right Column: Student Environment Visual (50%) -->
+                <div class="image-wrapper-enhanced">
+                    <img src="../assets/academy-students-visual.jpg" alt="Qine Academy Learning Environment">
+                    <div class="image-caption-banner">
+                        <p class="caption-text gold">Empowering the Next Generation of Developers at Bahir Dar University</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- SECTION 2: STRICT 4-COLUMN CURRICULUM GRID -->
+    <section class="deep-section curriculum-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Comprehensive Course Catalog</h2>
+                <p class="section-subtitle">Four Structured Tracks Prioritizing Frontend Web Development Fundamentals</p>
+            </div>
+            
+            <div class="launch-announcement">
+                <div class="announcement-content">
+                    <span class="announcement-icon">🚀</span>
+                    <p><strong>Building Anticipation:</strong> All courses are currently in active development. 
+                    Join our Telegram community to receive immediate notifications when enrollment opens!</p>
+                </div>
+            </div>
+            
+            <!-- 4-Column Course Grid (25% Width Each) -->
+            <div class="curriculum-grid-4col">
+                <!-- Course 1: Foundations of Web - HTML & CSS -->
+                <article class="course-card coming-soon-card">
+                    <div class="card-header">
+                        <div class="card-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                                <path d="M2 17L12 22L22 17" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <span class="status-badge coming-soon">COMING SOON</span>
+                    </div>
+                    <h3 class="card-title">Foundations of Web: HTML & CSS</h3>
+                    <p class="card-description">
+                        Master semantic HTML5 markup and modern CSS styling from absolute zero. Build responsive, 
+                        accessible web pages with flexbox, grid layouts, and professional design principles.
+                    </p>
+                    <ul class="card-meta">
+                        <li><strong>Duration:</strong> 3 Weeks</li>
+                        <li><strong>Track:</strong> Frontend Foundations</li>
+                        <li><strong>Level:</strong> Beginner</li>
+                        <li><strong>Projects:</strong> 4 Live Sites</li>
+                    </ul>
+                    <div class="launch-indicator">
+                        <span class="indicator-icon">📺</span>
+                        <span class="indicator-text">Launching via Telegram/YouTube</span>
+                    </div>
+                </article>
+                
+                <!-- Course 2: Interactive Web & JavaScript Logic -->
+                <article class="course-card coming-soon-card">
+                    <div class="card-header">
+                        <div class="card-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8 6L3 11L8 16" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M16 6L21 11L16 16" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M13 3L11 21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <span class="status-badge coming-soon">COMING SOON</span>
+                    </div>
+                    <h3 class="card-title">Interactive Web & JavaScript Logic</h3>
+                    <p class="card-description">
+                        Bring websites to life with dynamic JavaScript. Learn DOM manipulation, event handling, 
+                        async operations, and ES6+ syntax to create interactive user experiences.
+                    </p>
+                    <ul class="card-meta">
+                        <li><strong>Duration:</strong> 4 Weeks</li>
+                        <li><strong>Track:</strong> Core Programming</li>
+                        <li><strong>Level:</strong> Intermediate</li>
+                        <li><strong>Projects:</strong> 5 Web Apps</li>
+                    </ul>
+                    <div class="launch-indicator">
+                        <span class="indicator-icon">📺</span>
+                        <span class="indicator-text">Launching via Telegram/YouTube</span>
+                    </div>
+                </article>
+                
+                <!-- Course 3: Advanced Architectures & Full-Stack Apps -->
+                <article class="course-card coming-soon-card">
+                    <div class="card-header">
+                        <div class="card-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                                <path d="M2 17L12 22L22 17" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                                <path d="M2 12L12 17L22 12" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <span class="status-badge coming-soon">COMING SOON</span>
+                    </div>
+                    <h3 class="card-title">Advanced Architectures & Full-Stack Apps</h3>
+                    <p class="card-description">
+                        Build production-ready applications with React, Node.js, databases, and APIs. Master 
+                        component architecture, state management, authentication, and cloud deployment.
+                    </p>
+                    <ul class="card-meta">
+                        <li><strong>Duration:</strong> 6 Weeks</li>
+                        <li><strong>Track:</strong> Full-Stack Engineering</li>
+                        <li><strong>Level:</strong> Advanced</li>
+                        <li><strong>Projects:</strong> 3 Deployments</li>
+                    </ul>
+                    <div class="launch-indicator">
+                        <span class="indicator-icon">📺</span>
+                        <span class="indicator-text">Launching via Telegram/YouTube</span>
+                    </div>
+                </article>
+                
+                <!-- Course 4: Data Structures & Algorithmic Logic -->
+                <article class="course-card coming-soon-card">
+                    <div class="card-header">
+                        <div class="card-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M21 16V8C20.9996 7.64927 20.9071 7.30481 20.7315 7C20.556 6.69519 20.3037 6.44337 20 6.27L13 2.27C12.696 2.09634 12.3511 2.00444 12 2.00444C11.6489 2.00444 11.304 2.09634 11 2.27L4 6.27C3.69626 6.44337 3.44398 6.69519 3.26846 7C3.09294 7.30481 3.00036 7.64927 3 8V16C3.00036 16.3507 3.09294 16.6952 3.26846 17C3.44398 17.3048 3.69626 17.5566 4 17.73L11 21.73C11.304 21.9037 11.6489 21.9956 12 21.9956C12.3511 21.9956 12.696 21.9037 13 21.73L20 17.73C20.3037 17.5566 20.556 17.3048 20.7315 17C20.9071 16.6952 20.9996 16.3507 21 16Z" stroke="currentColor" stroke-width="2"/>
+                                <path d="M3.27002 6.96002L12 12.01L20.73 6.96002" stroke="currentColor" stroke-width="2"/>
+                                <path d="M12 22.08V12" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                        </div>
+                        <span class="status-badge coming-soon">COMING SOON</span>
+                    </div>
+                    <h3 class="card-title">Data Structures & Algorithmic Logic</h3>
+                    <p class="card-description">
+                        Deep dive into algorithms, data structures, and computational problem-solving. Prepare for 
+                        technical interviews with Big-O analysis, search/sort algorithms, and optimization patterns.
+                    </p>
+                    <ul class="card-meta">
+                        <li><strong>Duration:</strong> 8 Weeks</li>
+                        <li><strong>Track:</strong> Advanced CS Theory</li>
+                        <li><strong>Level:</strong> Advanced</li>
+                        <li><strong>Projects:</strong> 20+ Challenges</li>
+                    </ul>
+                    <div class="launch-indicator">
+                        <span class="indicator-icon">📺</span>
+                        <span class="indicator-text">Launching via Telegram/YouTube</span>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo-container">
+                        <img src="../QineSystem-Logo.jpg" alt="Qine Systems Logo" class="footer-logo-image">
+                        <h3 class="footer-logo">QINE SYSTEMS</h3>
+                    </div>
+                    <p class="footer-tagline">Technology | Engineering | Wisdom</p>
+                </div>
+                
+                <nav class="footer-links" aria-label="Footer navigation">
+                    <div class="footer-column">
+                        <h4>Navigation</h4>
+                        <ul>
+                            <li><a href="home.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="achievements.html">Achievements</a></li>
+                            <li><a href="academy.html">Qine Academy</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4>Resources</h4>
+                        <ul>
+                            <li><a href="roadmap.html">Future Tracks</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                            <li><a href="https://t.me/QineSystems" target="_blank" rel="noopener noreferrer">Community</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4>Connect</h4>
+                        <ul>
+                            <li><a href="https://t.me/QineSystems" target="_blank" rel="noopener noreferrer">Telegram</a></li>
+                            <li><a href="https://youtube.com/@QineSystems" target="_blank" rel="noopener noreferrer">YouTube</a></li>
+                            <li><a href="https://t.me/YourPersonalTelegram" target="_blank" rel="noopener noreferrer">Partner Direct</a></li>
+                        </ul>
+                        <div class="footer-social">
+                            <a href="https://www.linkedin.com/company/qinesystems" class="social-link linkedin" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                                </svg>
+                            </a>
+                            <a href="https://github.com/qinesystems" class="social-link github" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                                </svg>
+                            </a>
+                            <a href="https://twitter.com/QineSystems" class="social-link twitter" target="_blank" rel="noopener noreferrer" aria-label="X (Twitter)">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                                </svg>
+                            </a>
+                            <a href="https://www.facebook.com/QineSystems" class="social-link facebook" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Qine Systems. Technology | Engineering | Wisdom. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../script.js"></script>
+</body>
+</html>
