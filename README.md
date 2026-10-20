@@ -62,3 +62,5 @@ A modern, highly responsive, and accessible landing page for Qine Systems - a "Z
 **Built with ❤️ by Qine Systems Team**
 
 *Bridging ancient scholarly logic with cutting-edge tech*
+
+# QineSystems
